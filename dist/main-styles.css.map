@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/main.scss"],"names":[],"mappings":"AAAA,KAAK,+BAA+B,WAAW,GAAG,kBAAkB","file":"main-styles.css","sourcesContent":["body{font:100% Helvetica,sans-serif;color:#333}li{border-color:#457;color:#457}\n"],"sourceRoot":""}

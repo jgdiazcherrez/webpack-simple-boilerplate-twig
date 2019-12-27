@@ -1,0 +1,36 @@
+{
+  "name": "webpack-boilerplate-twig",
+  "version": "1.0.0",
+  "description": "Simple Front End boilerplate to work with webpack, twig and scss",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js --config webpack.prod.config.js --progress --mode production",
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js  --config webpack.dev.config.js --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name" : "Jonathan Díaz",
+    "email": "jgdiazcherrez@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^4.0.0",
+    "sass-loader": "^8.0.0",
+    "twig-html-loader": "^0.1.7",
+    "webpack": "^4.41.4",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-notifier": "^1.8.0",
+    "webpackbar": "^4.0.0"
+  }
+}

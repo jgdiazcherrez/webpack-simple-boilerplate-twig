@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<title> Title </title>
+<meta charset="UTF-8"/>
+</html>
+<body>
+
+<h1>Hello world with twig and webpack</h1>
+
+{# You can define an include or extends #}
+<div id="container">
+
+    {% include 'templates/common/mock.twig' with {'fooItems':[{'title': 'Maria'}, { 'title': 'León'}] } %}
+
+    {% set fooItems  = [{'title': 'Jonathan'}, {'title': 'Daigo'}, {'title': 'OkDiario'}, {'title':'Pepito'}]  %}
+
+    {% include 'templates/common/mock.twig' with fooItems %}
+</div>
+
+</body>
